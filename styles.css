@@ -1,0 +1,174 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #BE5985;
+}
+
+/* Header Styles */
+header {
+    background-color: #BE5985;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Home Section Styles */
+.home-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #fff;
+}
+
+
+.profile-photo {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.home-section h1 {
+    margin: 20px 0;
+    font-size: 48px;
+    color: #333;
+}
+
+.home-section p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons .button {
+    background-color: #BE5985;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.buttons .button:hover {
+    background-color: #EC7FA9;
+}
+
+/* Resume Section Styles */
+#resume {
+    padding: 50px;
+    background-color: #FFEDFA;
+}
+
+#resume h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.resume-section h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.resume-section p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Projects Section Styles */
+#projects {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#projects h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+.project {
+    margin-bottom: 30px;
+}
+
+.project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.project h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+
+.project p {
+    font-size: 18px;
+}
+
+/* Contact Section Styles */
+#contact {
+    padding: 50px;
+    background-color: #FFEDFA;
+}
+
+#contact h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#contact p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #FFB8E0;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+footer .social-links a {
+    color: #BE5985;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer .social-links a:hover {
+    color: #EC7FA9;
+}
